@@ -25,3 +25,13 @@ function hitungDuit(){
         document.getElementById("hasilDuit").innerText = "Masukkan Nilai yang valid"
     }
 }
+
+//Soal 3
+function hitungpenjumlahan(){
+    var bil1 = parseFloat(
+        document.getElementById("bil1").value) || 0;
+    var bil2 = parseFloat(
+        document.getElementById("bil2").value) || 0;
+    var jumlah = bil1 + bil2;
+        document.getElementById("hasilJumlah").innerText = "Jumlah:" + jumlah.toFixed(2);
+}
